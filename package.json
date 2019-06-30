@@ -1,0 +1,40 @@
+{
+  "name": "practical-tslint-config",
+  "version": "1.0.0",
+  "description": "A TSLint ruleset based on the Airbnb style guide, Prettier, and practicality",
+  "main": "tslint.json",
+  "author": "Parker Ledoux",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Parker-Ledoux/practical-tslint-config.git"
+  },
+  "keywords": [
+    "tslint",
+    "javascript",
+    "airbnb",
+    "practical",
+    "lint",
+    "typescript",
+    "prettier"
+  ],
+  "bugs": {
+    "url": "https://github.com/Parker-Ledoux/practical-tslint-config/issues"
+  },
+  "homepage": "https://github.com/Parker-Ledoux/practical-tslint-config#readme",
+  "prettier": "prettier-airbnb-config",
+  "devDependencies": {
+    "prettier": "^1.18.2",
+    "prettier-airbnb-config": "^1.0.0",
+    "tslint": "^5.18.0",
+    "typescript": "^3.5.2"
+  },
+  "peerDependencies": {
+    "tslint": "^5.2.0"
+  },
+  "dependencies": {
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-consistent-codestyle": "^1.15.1",
+    "tslint-eslint-rules": "^5.4.0"
+  }
+}
