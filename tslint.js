@@ -38,7 +38,7 @@ const loops = {
 };
 
 const functions = {
-  'no-function-constructor-with-string-args': true, // 7.10
+  'function-constructor': true, // 7.10
   'no-parameter-reassignment': true, // 7.12
   'ter-prefer-arrow-callback': [true], // 8.1
   'arrow-return-shorthand': true, // 8.2
@@ -81,6 +81,7 @@ const interfaces = {
 const conditionals = {
   'prefer-conditional-expression': [true, 'check-else-if'],
   'no-conditional-assignment': true,
+  'ter-no-self-compare': true,
   'unnecessary-else': true, // 16.3
 };
 
@@ -103,11 +104,12 @@ const imports = {
 };
 
 const maintainability = {
-  'no-increment-decrement': true, // 13.6
+  'increment-decrement': true, // 13.6
   'no-unused-variable': true, // 13.8
   'no-this-assignment': [true, 'allow-destructuring'], // 23.5
   'no-null-keyword': true, // c6.1
   'no-non-null-assertion': true, // c6.2
+  'valid-typeof': true,
 };
 
 const comments = {
@@ -134,7 +136,7 @@ const naming = {
 module.exports = {
   rulesDirectory: [
     'tslint-consistent-codestyle',
-    'tslint-eslint-rules',
+    'tslint-eslint-rules/dist/rules',
     'tslint-microsoft-contrib',
   ],
   extends: ['tslint-config-prettier'],
