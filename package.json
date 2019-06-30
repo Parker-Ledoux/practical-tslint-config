@@ -1,6 +1,6 @@
 {
   "name": "practical-tslint-config",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A TSLint ruleset based on the Airbnb style guide, Prettier, and practicality",
   "main": "tslint.js",
   "author": "Parker Ledoux",
