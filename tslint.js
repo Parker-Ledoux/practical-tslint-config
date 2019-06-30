@@ -132,7 +132,11 @@ const naming = {
 };
 
 module.exports = {
-  rulesDirectory: ['tslint-consistent-codestyle', 'tslint-eslint-rules'],
+  rulesDirectory: [
+    'tslint-consistent-codestyle',
+    'tslint-eslint-rules',
+    'tslint-microsoft-contrib',
+  ],
   extends: ['tslint-config-prettier'],
   rules: {
     ...variables,
