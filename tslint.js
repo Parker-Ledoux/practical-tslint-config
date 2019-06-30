@@ -1,3 +1,5 @@
+const path = require('path');
+
 /**
  * Note: Rules prefixed with "c" are from the custom rules defined in the README.
  * Rules that are not prefixed with "c" are from the Airbnb style guide.
@@ -135,9 +137,9 @@ const naming = {
 
 module.exports = {
   rulesDirectory: [
-    'tslint-consistent-codestyle',
-    'node_modules/tslint-eslint-rules/dist/rules',
-    'tslint-microsoft-contrib',
+    path.join(path.dirname(require.resolve('tslint-consistent-codestyle')), './'),
+    path.join(path.dirname(require.resolve('tslint-eslint-rules')), 'dist/rules'),
+    path.join(path.dirname(require.resolve('tslint-microsoft-contrib')), './'),
   ],
   extends: ['tslint-config-prettier'],
   rules: {
