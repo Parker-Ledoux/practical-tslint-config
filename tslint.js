@@ -107,7 +107,6 @@ const imports = {
 
 const maintainability = {
   'increment-decrement': true, // 13.6
-  'no-unused-variable': true, // 13.8
   'no-this-assignment': [true, 'allow-destructuring'], // 23.5
   'no-null-keyword': true, // c6.1
   'no-non-null-assertion': true, // c6.2
