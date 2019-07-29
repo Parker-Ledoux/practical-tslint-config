@@ -26,7 +26,7 @@ const objects = {
   'no-construct': true, // 3.1, 22.2, 22.3, 22.6
   'object-literal-shorthand': true, // 3.3, 3.4
   'object-shorthand-properties-first': true, // 3.5
-  'object-literal-key-quotes': [true, 'as-needed'], // 3.6
+  'object-literal-key-quotes': [true, 'always'], // 3.6
   'prefer-object-spread': true, // 3.8
 };
 
